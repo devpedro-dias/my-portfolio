@@ -181,16 +181,17 @@ export const icons = [
   },
   {
     id: 10,
-    name: "CSS3",
-    img: "/css3-original.svg",
-    nameImg: "/cssName.svg",
-  },
-  {
-    id: 11,
     name: "SQL DataBase",
     img: "/azuresqldatabase-original.svg",
     nameImg: "/sqlName.svg",
   },
+  {
+    id: 11,
+    name: "CSS3",
+    img: "/css3-original.svg",
+    nameImg: "/cssName.svg",
+  },
+  
 ];
 
 export const workExperience = [
