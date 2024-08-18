@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Sou flexivel com horários e ambientes",
+    title: "Sou flexível com horários e ambientes",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -76,18 +76,31 @@ export const projects = [
   {
     id: 1,
     title: "SCX Agenciamentos Marítimos",
-    des: "Um site para uma empresa de Comércio Exterior, utilizando do básico do Angular, com uma integração com uma API de cotação de moedas.",
+    des: "Um site de Comércio Exterior, com uma integração com uma API de cotação de moedas.",
     img: "/scx-angular.png",
-    iconLists: ["/angular-original.svg", "/css3-original.svg", "/ts.svg"],
+    iconLists: [
+      "/angular-original.svg",
+      "/css3-original.svg",
+      "/html5.svg",
+      "/ts.svg",
+    ],
     link: "https://scxagenciamentos.vercel.app/",
   },
   {
     id: 2,
-    title: "Segunda opção para SCX Agenciamentos Marítimos",
-    des: "Basicamente o mesmo site, com os mesmos conteúdos porém de uma forma mais dinâmica, utilizando NextJS, GSAP e outras ferramentas. Observação: Site não utilizado oficialmente, apenas exibição.",
-    img: "/scx-next.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg", "/three.svg"],
-    link: "https://foreign-trade-website-freela.vercel.app/",
+    title: "DEVBarber",
+    des: "Um site para uma barbearia, moderno, simples e responsivo. Conta com sistema de agendamentos, usuários e barbeiros. Observação(18/08/2024): Ainda não está 100% finalizado.",
+    img: "/devbarber.png",
+    iconLists: [
+      "/next.svg",
+      "/next-auth.svg",
+      "/prisma.svg",
+      "/postgresql.svg",
+      "/docker.svg",
+      "/eslint.svg",
+      "/tail.svg",
+    ],
+    link: "https://devbarber-app.vercel.app/",
   },
 ];
 
@@ -191,7 +204,6 @@ export const icons = [
     img: "/css3-original.svg",
     nameImg: "/cssName.svg",
   },
-  
 ];
 
 export const workExperience = [
