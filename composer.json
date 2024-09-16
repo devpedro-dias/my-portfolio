@@ -1,0 +1,16 @@
+{
+    "name": "pedrodias/portfolio",
+    "description": "Pedro Dias Portfolio",
+    "autoload": {
+        "psr-4": {
+            "Pedrodias\\Portfolio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pedro Dias",
+            "email": "pedrocorchogdev@gmail.com"
+        }
+    ],
+    "require": {}
+}
