@@ -3,7 +3,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
-import { PinContainer, PinPerspective } from "./ui/Pin";
+import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
@@ -20,7 +20,7 @@ const RecentProjects = () => {
           >
             <PinContainer title={item.title}>
               <a href={item.link}>
-                <div className="relative flex items-center justify-center sm:w-96 w-[89vw] overflow-hidden h-[22vh] lg:h-[30vh] mb-10 mx-auto ">
+                <div className="relative flex items-center justify-center sm:w-96 w-[89vw] overflow-hidden h-[20vh] lg:h-[24vh] mb-5 mx-auto">
                   <div
                     className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                     style={{ backgroundColor: "#13162D" }}
@@ -30,7 +30,7 @@ const RecentProjects = () => {
                   <img
                     src={item.img}
                     alt="cover"
-                    className="z-10 absolute bottom-0"
+                    className="z-10 absolute bottom-[-24px] p-4"
                   />
                 </div>
 
