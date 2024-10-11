@@ -210,17 +210,17 @@ export const workExperience = [
   {
     id: 1,
     title: "Desenvolvedor Web Freelance",
-    desc: "Desenvolvimento de sites para clientes, utilizando como base as tecnologias que tenho conhecimento.",
-    className: "md:col-span-2 md:", // change to md:col-span-2
+    desc: "Especialista no desenvolvimento de websites personalizados para atender as necessidades específicas de cada cliente, desde páginas simples e informativas até sites modernos, dinâmicos e interativos. Foco em qualidade, experiência do usuário (UX) e design de interface (UI).",
+    className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
-  // {
-  //   id: 2,
-  //   title: "Lead Frontend Developer",
-  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/exp4.svg",
-  // },
+  {
+    id: 2,
+    title: "Estagiário em Automação",
+    desc: "Automação e refatoração de planilhas (Google Sheets) com base em App Script (plataforma baseada em JavaScript), automação do aplicativo do Waze (atualização de eventos e imprevistos), suporte ao munícipe via telefone.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
 ];
 
 export const socialMedia = [
