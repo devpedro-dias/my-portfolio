@@ -21,6 +21,7 @@ const Experience = () => {
               backgroundColor:
                 "linear-gradient(90deg, rgba(207,229,255,1) 0%, rgba(96,165,250,1) 100%)",
               borderRadius: `calc(1.75rem* 0.96)`,
+              cursor: "default",
             }}
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
