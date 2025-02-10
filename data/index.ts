@@ -84,7 +84,7 @@ export const projects = [
       "/html5.svg",
       "/ts.svg",
     ],
-    link: "https://scxagenciamentos.vercel.app/",
+    link: "https://www.scxagenciamentos.com.br",
   },
   {
     id: 2,
@@ -96,11 +96,11 @@ export const projects = [
       "/next-auth.svg",
       "/prisma.svg",
       "/postgresql.svg",
-      "/docker.svg",
-      "/eslint.svg",
       "/tail.svg",
+      "/aws-ses.svg",
+      "/aws-s3-bucket.svg",
     ],
-    link: "https://devbarber-app.vercel.app/",
+    link: "https://www.devbarber.tech",
   },
 ];
 
